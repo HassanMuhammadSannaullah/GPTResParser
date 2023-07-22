@@ -9,14 +9,7 @@ sys.path.append(project_dir)
 
 async def askGPT3(query):
     if type(query) is str:
-        resp = await gpt3.Completion.create(prompt=query)
-        return resp
-    return None
-
-
-async def askGPT4(query):
-    if type(query) is str:
-        resp = await gpt4.Completion.create(prompt=query)
+        resp = await getattr(freeGPT, "gpt3").Completion.create(query)
         return resp
     return None
 
