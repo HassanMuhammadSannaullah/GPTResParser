@@ -9,7 +9,7 @@ setup(
         'python-docx',
         'regex',
         'aiohttp',
-        'freeGPT==1.1.2',
+        'freeGPT==1.2.4',
         'docx2txt==0.8'
     ],
     # Include any other relevant metadata
