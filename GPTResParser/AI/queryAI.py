@@ -1,4 +1,4 @@
-from freeGPT import gpt3, gpt4
+import freeGPT
 import sys
 import os
 
