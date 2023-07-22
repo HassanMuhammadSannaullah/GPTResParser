@@ -10,6 +10,7 @@ setup(
         'regex',
         'aiohttp',
         'freeGPT==1.1.2',
+        'docx2txt==0.8'
     ],
     # Include any other relevant metadata
     author='Hassan Muhammad Sanaullah',
